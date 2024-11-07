@@ -1,0 +1,20 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-main-color: #121826;
+    --bg-form-color: #212936;
+    --contrast-color: #652cd1;
+    --contrast-color_2: #845eee;
+}
+
+html {
+    font-family: "Inter", sans-serif;
+}
+
+h2 {
+    font-size: 20px;
+}
