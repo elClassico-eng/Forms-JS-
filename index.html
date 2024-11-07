@@ -13,5 +13,38 @@
         />
         <script src="forms.js" defer></script>
     </head>
-    <body></body>
+    <body>
+        <section class="register__section" aria-labelledby="register-title">
+            <article class="register__article">
+                <h3 class="title__form">Register</h3>
+                <form method="get" class="active register__form">
+                    <div class="name__input">
+                        <label for="name">Name</label>
+                        <input
+                            type="text"
+                            name="name"
+                            id="name"
+                            placeholder="enter your name"
+                        />
+                    </div>
+                    <div class="email__input">
+                        <label for="email">Email</label>
+                        <input
+                            type="email"
+                            name="email"
+                            id="email"
+                            placeholder="example@gmail.com"
+                        />
+                    </div>
+                    <button type="submit">Continue</button>
+                </form>
+            </article>
+
+            <nav aria-label="Forms steps" class="form__steps">
+                <span class="step active"></span>
+                <span class="step"></span>
+                <span class="step"></span>
+            </nav>
+        </section>
+    </body>
 </html>
